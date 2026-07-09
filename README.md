@@ -13,7 +13,7 @@ Our curriculum spans across four major pillars:
 ---
 
 ## 🏆 Journey Tracker
-Currently, we are **2 weeks** into the program. All tests are passing flawlessly (52/52)! 🎉
+Currently, we are **3 weeks** into the program. All tests are passing flawlessly (53/53)! 🎉
 
 ### Phase 1: Foundations & Architecture ✅
 *Completed: June 25, 2026*
@@ -30,8 +30,14 @@ Diving deep into application context and data layers:
 *   **ORM**: JPA mappings, Hibernate 5.6.15, H2 Database
 *   **Status**: 27/27 Tests Passing across `SpringCore`, `JPA`, and `Hibernate` exercises.
 
+### Phase 3: Spring REST Services & SonarQube ✅
+*Completed: July 7, 2026*
+Building robust RESTful web services and ensuring code quality:
+*   **REST Controllers**: Exposing clean endpoints (`/hello`, `/country`, `/countries/{code}`, `/authenticate`)
+*   **Security**: Implementation of JWT Token generation and secure endpoint routing
+*   **Status**: 1/1 Tests Passing in `spring-learn`
+
 ### 🔮 Looking Ahead
-- **Phase 3 (July 2)**: Spring REST APIs, HTTP Methods, Validation.
 - **Phase 4 (July 9)**: SonarQube Code Quality & Microservices.
 - **Phase 5 (July 16)**: React Fundamentals.
 - **Phase 6 (July 23)**: React Advanced Patterns.
@@ -47,7 +53,8 @@ Diving deep into application context and data layers:
 | **Week 2** (Spring Core) | 10/10 | 🟢 SUCCESS |
 | **Week 2** (JPA) | 10/10 | 🟢 SUCCESS |
 | **Week 2** (Hibernate) | 7/7 | 🟢 SUCCESS |
-| **Total** | **52/52** | 🟢 **PASS** |
+| **Week 3** (Spring REST) | 1/1 | 🟢 SUCCESS |
+| **Total** | **53/53** | 🟢 **PASS** |
 
 ---
 
@@ -55,5 +62,5 @@ Diving deep into application context and data layers:
 **Core**: `Java 21` | `Maven 3.9`
 **Spring**: `Spring 6.1.0` | `Spring Boot 3.x`
 **Data**: `Hibernate` | `JPA` | `H2`
-**Testing**: `JUnit 4.13` | `Mockito 5.11`
+**Testing**: `JUnit 4.13` | `Mockito 5.11` | `JUnit Jupiter 5.x`
 **Web**: `React` | `Angular`
